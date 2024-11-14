@@ -42,7 +42,7 @@ public class QuickCoordsAddon extends LabyAddon<QuickCoordsConfiguration> {
   public boolean isOnHypixel() {
     ServerData serverData = Laby.labyAPI().serverController().getCurrentServerData();
     if (serverData != null) {
-      return serverData.actualAddress().getHost().equals("mc.hypixel.net");
+      return serverData.address().getHost().contains("hypixel");
     }
     return false;
   }
