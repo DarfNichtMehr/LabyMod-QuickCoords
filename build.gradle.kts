@@ -9,7 +9,7 @@ group = "org.example"
 version = providers.environmentVariable("VERSION").getOrElse("1.0.0")
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "de.darfnichtmehr" //change this to your main package name (used by all modules)
 
     minecraft {
         registerVersion(versions.toTypedArray()) {
@@ -23,10 +23,10 @@ labyMod {
     }
 
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "quickcoords"
+        displayName = "QuickCoords"
+        author = "DarfNichtMehr"
+        description = "Copy your coordinates to your clipboard, send them via command or include them in a message with a placeholder."
         minecraftVersion = "*"
         version = rootProject.version.toString()
     }

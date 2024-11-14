@@ -1,0 +1,38 @@
+{
+  "quickcoords": {
+    "messages": {
+      "hotkeys": {
+        "clipboard": "Coordinates copied to clipboard!"
+      },
+      "chatPlaceholder": {
+        "hypixel": "Hypixel prohibits the use of the Chat Placeholder feature. Instead, you can copy and paste your coordinates into a message."
+      }
+    },
+    "settings": {
+      "name": "QuickCoords",
+      "enabled": {
+        "name": "Enabled"
+      },
+      "format": {
+        "name": "Format"
+      },
+      "enableCommand": {
+        "name": "Enable Commands (/sendcoords & /sc)"
+      },
+      "clipboardKeys": {
+        "name": "Copy to Clipboard"
+      },
+      "enableChatPlaceholder": {
+        "name": "Enable Chat Placeholder"
+      },
+      "chatPlaceholder": {
+        "name": "Chat Placeholder"
+      },
+      "header": {
+        "chatPlaceholder": {
+          "name": "Chat Placeholder"
+        }
+      }
+    }
+  }
+}
