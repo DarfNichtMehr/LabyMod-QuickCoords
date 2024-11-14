@@ -31,6 +31,6 @@ public class ChatPlaceholderListener {
 
     String message = event.getMessage()
         .replace(ADDON.configuration().chatPlaceholder().get(), ADDON.getFormattedCoordinates());
-    event.changeMessage(message);
+    event.changeMessage(message, event.getMessage());
   }
 }
