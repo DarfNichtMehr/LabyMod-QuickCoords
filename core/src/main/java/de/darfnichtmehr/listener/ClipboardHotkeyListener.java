@@ -23,7 +23,7 @@ public class ClipboardHotkeyListener {
         || Laby.labyAPI().minecraft().minecraftWindow().isScreenOpened()) {
       return;
     }
-    System.out.println(ADDON.isOnHypixel());
+
     Key[] keys = ADDON.configuration().clipboardKeys().get();
 
     if (keys.length == 0) {
