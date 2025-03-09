@@ -1,6 +1,6 @@
-package de.darfnichtmehr.listener;
+package de.darfnichtmehr.quickcoords.listener;
 
-import de.darfnichtmehr.QuickCoordsAddon;
+import de.darfnichtmehr.quickcoords.QuickCoordsAddon;
 import net.labymod.api.client.component.Component;
 import net.labymod.api.client.component.format.NamedTextColor;
 import net.labymod.api.event.Subscribe;

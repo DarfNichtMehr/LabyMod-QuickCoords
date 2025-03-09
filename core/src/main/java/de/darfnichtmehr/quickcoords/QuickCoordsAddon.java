@@ -1,13 +1,13 @@
-package de.darfnichtmehr;
+package de.darfnichtmehr.quickcoords;
 
 import net.labymod.api.Laby;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.client.entity.player.ClientPlayer;
 import net.labymod.api.client.network.server.ServerData;
 import net.labymod.api.models.addon.annotation.AddonMain;
-import de.darfnichtmehr.commands.SendcoordsCommand;
-import de.darfnichtmehr.listener.ChatPlaceholderListener;
-import de.darfnichtmehr.listener.ClipboardHotkeyListener;
+import de.darfnichtmehr.quickcoords.commands.SendcoordsCommand;
+import de.darfnichtmehr.quickcoords.listener.ChatPlaceholderListener;
+import de.darfnichtmehr.quickcoords.listener.ClipboardHotkeyListener;
 
 @AddonMain
 public class QuickCoordsAddon extends LabyAddon<QuickCoordsConfiguration> {

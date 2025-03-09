@@ -1,6 +1,6 @@
-package de.darfnichtmehr.commands;
+package de.darfnichtmehr.quickcoords.commands;
 
-import de.darfnichtmehr.QuickCoordsAddon;
+import de.darfnichtmehr.quickcoords.QuickCoordsAddon;
 import net.labymod.api.Laby;
 import net.labymod.api.client.chat.command.Command;
 

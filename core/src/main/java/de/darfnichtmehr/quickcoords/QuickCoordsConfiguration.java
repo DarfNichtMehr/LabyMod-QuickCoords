@@ -1,4 +1,4 @@
-package de.darfnichtmehr;
+package de.darfnichtmehr.quickcoords;
 
 import net.labymod.api.addon.AddonConfig;
 import net.labymod.api.client.gui.screen.key.Key;
